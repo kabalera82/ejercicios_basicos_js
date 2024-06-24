@@ -1,1 +1,0 @@
-/* Vamos a comenzar a trabajar con el DOM */
