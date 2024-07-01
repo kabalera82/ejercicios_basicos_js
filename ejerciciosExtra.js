@@ -1,15 +1,33 @@
 /* 
 1.- Crea un programa que cuente los numeros pares hasta 12.
-2.- Crea un programa que realice por consola 2 a la 10
-3.- Crea un programa que realice un triangulo
+2.- Crea un programa que realice por consola 2 a la 10.
+3.- Crea un programa que realice un triangulo.
 #
 ##
 ###
 ####
 #####
 ######
-#######
 
+4.- FIZZ BUZZ
+Escribe un programa que imprima por consola los números del 1 al 100, pero con dos excepciones:
+
+Para los números divisibles por 3, imprime "Fizz" en lugar del número.
+Para los números divisibles por 5 (y no por 3), imprime "Buzz" en lugar del número.
+Para los números que son divisibles tanto por 3 como por 5, imprime "FizzBuzz".
+
+5.- TABLERO DE AJEDREZ
+Crea un programa que genere por consola una representación de un tablero de ajedrez utilizando caracteres.
+El tablero debe ser de 8x8, alternando espacios en blanco y caracteres (por ejemplo, "#")
+para representar las casillas blancas y negras. La salida debe ser algo así:
+# # # #
+ # # # #
+# # # #
+ # # # #
+# # # #
+ # # # #
+# # # #
+ # # # #
 
 
 */
