@@ -11,9 +11,9 @@ Crea una variable llamada longitud y asigna el valor 10.
 Crea una variable llamada suma y asigna el valor de altura + longitud.
 5. Imprime los resultados:
 Muestra todas las variables por consola.
+
+---------------------------------------------------------------------------------------------------------------------------------
 */
-
-
 var miSuperheroeFavorito = "Hulk";
 
 var numeroFavorito = 50;
@@ -29,3 +29,7 @@ console.log(numeroFavorito);
 console.log(altura);
 console.log(longitud);
 console.log(suma);
+
+
+
+var numero = parseInt(prompt("Introduce un número:"), 10);

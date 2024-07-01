@@ -4,10 +4,9 @@ Ejercicio 2
 1. Luke Skywalker cumple años:
 Modifica el siguiente código JavaScript para actualizar la edad de Luke Skywalker a 25 años.
 
-
 const jedi = {nombre: "Luke Skywalker", edad: 19};
 
-jedi.edad = 25; /* Modificación de la edad de Luke Skywalker a 25 años 
+jedi.edad = 25; 
 
 console.log(jedi);
 
@@ -68,3 +67,24 @@ console.log("El precio final del " + nave1.nombre + " es de " + (nave1.precioBas
 console.log("El precio final del " + nave2.nombre + " es de " + (nave2.precioBase + precioBaseGlobal) + " créditos galácticos.");
 
 */
+
+/*
+
+3. Calculando el coste total de sables de luz:
+- Obtén el precio total de dos sables de luz: "Shoto de Yoda" y "sable de Darth Vader".
+- Imprime el resultado por consola utilizando console.log.
+
+
+const sable1 = {nombre: "Shoto de Yoda", precio: 1500};
+const sable2 = {nombre: "Sable de Darth Vader", precio: 2000};
+*/
+
+const sable1 = {nombre: "Shoto de Yoda", precio: 1500};
+const sable2 = {nombre: "Sable de Darth Vader", precio: 2000};
+
+const precioBase = 20000;
+
+sable1.nombre = "Sable de Luz";
+sable1.precio = 15000;
+
+console.log('El precio de '+ sable1.nombre + ' es de ' + (sable1.precio+precioBase) + ' Creditos espaciales');
