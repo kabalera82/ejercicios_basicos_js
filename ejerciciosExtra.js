@@ -61,7 +61,8 @@ while (contador < 10){
 console.log(resultado); // Este es el resultado final del bucle
 */
 /*
-let resultado = 1; // Declare the 'resultado' variable before the for loop
+
+let resultado = 1; 
 for (let contador = 0; contador < 10; contador = contador + 1){
 resultado = resultado * 2;
 console.log(resultado)
@@ -70,6 +71,15 @@ console.log(resultado)
 console.log(resultado)
 */
 /*
+
+//--------------------------  Ejercicio 3 ---------------------------------------------------------------------------------------
+Crea un programa que realice un triangulo.
+#
+##
+###
+####
+#####
+######
 let piramide = "#";
 
 let contador = 0;
@@ -78,4 +88,20 @@ while (contador < 12) {
     piramide += "#";
     contador = contador + 1;
 }
+*/
+
+//----------------------------------------------------  Ejercicio 4 -----------------------------------------------------------------------------------------------------------
+
+/* 
+
+FIZZ BUZZ
+Escribe un programa que imprima por consola los números del 1 al 100, pero con dos excepciones:
+
+Para los números divisibles por 3, imprime "Fizz" en lugar del número.
+Para los números divisibles por 5 (y no por 3), imprime "Buzz" en lugar del número.
+Para los números que son divisibles tanto por 3 como por 5, imprime "FizzBuzz".
+
+
+
+
 */
