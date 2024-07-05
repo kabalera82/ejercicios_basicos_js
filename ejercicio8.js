@@ -23,10 +23,5 @@ function palabraMasLarga(strings) {
     return masLarga;
 }
 
-// Ejemplo de uso con el array avengers
-let resultadoAvengers = palabraMasLarga(avengers);
-console.log("La palabra más larga en avengers es:", resultadoAvengers);
-
-// Ejemplo de uso con el array alumnos
-let resultadoAlumnos = palabraMasLarga(alumnos);
-console.log("La palabra más larga en alumnos es:", resultadoAlumnos);
+console.log(palabraMasLarga(avengers));
+console.log(palabraMasLarga(alumnos));

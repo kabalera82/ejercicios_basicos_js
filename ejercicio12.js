@@ -8,6 +8,7 @@ Pista: puedes generar un nuevo array y devolverlo.
 
 Puedes usar este array para probar tu función:
 */
+
 const duplicates = [
   'sushi',
   'pizza',
@@ -21,24 +22,18 @@ const duplicates = [
   'pasta',
   'soda'
 ];
-
-function eliminaDuplicados(array) {
-  return Array.from(new Set(array));
-}
-
-const valorUnico = eliminaDuplicados(duplicates);
-
-function removeDuplicates() {
-  let newarray = 0;
-  for (let element of duplicates) {
-    if (typeof element === 'string') {
-      newarray += element;
-    }
+const ruta=[
+  'cohete', 'avion', 'barco', 'carro', 'moto', 'avion', 'carro', 'avion', 'cohete', 'avion', 'barco', 'carro', 'moto', 'avion', 'carro', 'avion'
+]
+function eliminaDuplicados(arri) {
+  let newArray = []; // Se inicializa el nuevo arreglo fuera del bucle
+  for (let i = 0; i < arri.length; i++) { // Se itera sobre el arreglo original
+	if (!newArray.includes(arri[i])) { // Se verifica si el elemento ya está en el nuevo arreglo
+	  newArray.push(arri[i]); // Si no está, se agrega al nuevo arreglo
+	}
   }
-  return newarray;
+  return newArray; // Se devuelve el nuevo arreglo sin duplicados
 }
 
-console.log("El nuevo array sin duplicados es: ", valorUnico);
-    
-
-
+console.log(eliminaDuplicados(duplicates));
+console.log(eliminaDuplicados(ruta));

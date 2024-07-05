@@ -8,18 +8,18 @@ Es un poco locura, pero podremos ejercitar nuestra lógica con este ejercicio.
 Puedes usar este array para probar tu función:
 */
 const mixedElements = [6, 1, 'Marvel', 1, 'hamburguesa', '10', 'Prometeo', 8, 'Hola mundo'];
-const resultado = averageWord(mixedElements);
 
-function averageWord(mixedElements) {
+
+function averageWord(mixed) {
   let sum = 0;
-  for (let element of mixedElements) {
+  for (let element of mixed) {
     if (typeof element === 'number') {
       sum += element;
     } else if (typeof element === 'string') {
       sum += element.length;
     }
   }
-  return sum / mixedElements.length;
+  return sum / mixed.length;
 }
 
-console.log( "El promedio de los elementos es: ", resultado)
+console.log( "El promedio de los elementos es: ", averageWord(mixedElements));
