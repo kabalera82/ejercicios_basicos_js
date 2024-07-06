@@ -19,3 +19,15 @@ const toys = [
     {id: 60, name: 'Nerf Blaster'},
     {id: 71, name: 'Sylvanian Families - Familia gato'}
 ];
+
+function eliminaGato(lista){
+    
+    for (let i = 0; i <lista.length; i++){
+        if (lista[i].name.toLowerCase().includes('gato')){
+            lista.splice(i, lista.length - i);
+        }
+    }
+    return lista;
+}
+
+console.log(eliminaGato(toys));
