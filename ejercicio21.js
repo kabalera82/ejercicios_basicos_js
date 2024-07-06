@@ -16,18 +16,18 @@ const users = [
     { name: "Khamala", years: 16 },
   ];
 
-  function recorreUsuarios (lista){
-    let menores = [];
-    let mayores = [];
+function recorreUsuarios (lista){
+    let listaMenores = [];
+    let listaMayores = [];
     for (let i=0; i<lista.length;i++){
         if(lista[i].years<18){
-            menores.push(lista[i].name);
+            listaMenores.push(lista[i].name);
         }
         else{
-            mayores.push(lista[i].name);
+            listaMayores.push(lista[i].name);
         }
     }
-    
+    return [listaMayores, listaMenores];
 }
-            console.log(recorreUsuarios(users));
+console.log(recorreUsuarios(users));
        
