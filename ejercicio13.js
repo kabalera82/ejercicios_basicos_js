@@ -23,12 +23,12 @@ const names = [
   'Marc'
 ];
 
-function buscaNombre(array, nombre) { // Función que recibe un array y un nombre
-  let position = array.indexOf(nombre); // Buscamos la posición del nombre en el array
-  if (position !== -1) { // Si la posición es diferente a -1, es decir, si el nombre existe
-    return [true, position]; // Devolvemos true y la posición del nombre
-  } else { // Si la posición es -1, es decir, si el nombre no existe
-    return false; // Devolvemos false
+function buscaNombre(array, nombre) { 
+  let position = array.indexOf(nombre);  // indexOf devuelve la posición del nombre en el array 
+  if (position !== -1) { // Si el nombre no existe en el array, indexOf devuelve -1 que indica que no existe
+    return [true, position]; 
+  } else { 
+    return false; 
   }
 }
 

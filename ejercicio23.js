@@ -23,7 +23,7 @@ const movies = [
     { name: "Eternal Sunshine of the Spotless Mind", durationInMinutes: 108 },
   ];
 
-  
+  /*
   function duracionPeliculas(lista){
     let peliculasPequenas = [];
     let peliculasMedianas = [];
@@ -41,3 +41,23 @@ const movies = [
 }
 
 console.log(duracionPeliculas(movies));
+*/
+
+const smallMovies = [];
+const mediumMovies = [];
+const largeMovies = [];
+
+for (const movie of movies){
+    if(movie.durationInMinutes < 100){
+        smallMovies.push(movie);
+    } else if (movie.durationInMinutes < 200){
+        mediumMovies.push(movie);
+    } else {
+        largeMovies.push(movie);
+    }
+}
+
+console.log("Cortas: ", smallMovies);
+console.log("Medianas: ", mediumMovies);
+console.log("Largas: ", largeMovies);
+

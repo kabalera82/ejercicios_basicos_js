@@ -31,3 +31,14 @@ function recorreUsuarios (lista){
 }
 console.log(recorreUsuarios(users));
        
+
+  for (let user of users) {
+    if (user.years < 18) {
+      menores.push(user.name); 
+    } else {
+      mayores.push(user.name); 
+    }
+  }
+  
+  
+  console.log(`Usuarios menores de edad: ${menores.join(', ')}, usuarios mayores de edad: ${mayores.join(', ')}`);

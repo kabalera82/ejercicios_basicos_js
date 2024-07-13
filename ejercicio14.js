@@ -34,7 +34,7 @@ function repeatCounter(lista) {
             contador[palabra] = 1;
         }
     }
-    return contador; // Agrega esta línea para retornar el objeto contador
+    return contador; 
 }
 
-console.log(repeatCounter(words)); // Agrega esta línea para mostrar el objeto contador en la consola
+console.log(repeatCounter(words)); 

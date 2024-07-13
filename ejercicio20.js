@@ -36,3 +36,11 @@ function cuentaVentas(lista){
 }
 
 console.log (cuentaVentas(toys));
+
+for (let toy of toys){
+    if (toy.sellCount > 15){
+      popularToys.push(toy) 
+    }
+  
+  }
+  console.log(popularToys)

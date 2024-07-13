@@ -78,7 +78,7 @@ console.log("El precio final del " + nave2.nombre + " es de " + (nave2.precioBas
 const sable1 = {nombre: "Shoto de Yoda", precio: 1500};
 const sable2 = {nombre: "Sable de Darth Vader", precio: 2000};
 */
-
+/*
 const sable1 = {nombre: "Shoto de Yoda", precio: 1500};
 const sable2 = {nombre: "Sable de Darth Vader", precio: 2000};
 
@@ -88,3 +88,5 @@ sable1.nombre = "Sable de Luz";
 sable1.precio = 15000;
 
 console.log('El precio de '+ sable1.nombre + ' es de ' + (sable1.precio+precioBase) + ' Creditos espaciales');
+
+*/

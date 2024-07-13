@@ -19,7 +19,7 @@ const toys = [
     {id: 60, name: 'Nerf Blaster'},
     {id: 71, name: 'Sylvanian Families - Familia gato'}
 ];
-
+/*
 function eliminaGato(lista){
     
     for (let i = 0; i <lista.length; i++){
@@ -31,3 +31,25 @@ function eliminaGato(lista){
 }
 
 console.log(eliminaGato(toys));
+
+*/
+/*
+for (let i=0; i < toys.length;i++){
+    const toy = toys[i];
+    if (toy.name.includes("gato")){
+        toys.splice(i, 1);
+        i--; // Decrementa i para que no se salte el siguiente elemento 
+    }
+}
+
+console.log(toys);
+ 
+*/
+const notcatToys = [];
+
+for(const toy of toys){
+    if(!toy.name.includes('gato')){
+        notcatToys.push(toy);
+    }
+}
+console.log(notcatToys);

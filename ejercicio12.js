@@ -26,7 +26,7 @@ const ruta=[
   'cohete', 'avion', 'barco', 'carro', 'moto', 'avion', 'carro', 'avion', 'cohete', 'avion', 'barco', 'carro', 'moto', 'avion', 'carro', 'avion'
 ]
 function eliminaDuplicados(arri) {
-  let newArray = []; // Se inicializa el nuevo arreglo fuera del bucle
+  let newArray = []; 
   for (let i = 0; i < arri.length; i++) { // Se itera sobre el arreglo original
 	if (!newArray.includes(arri[i])) { // Se verifica si el elemento ya está en el nuevo arreglo
 	  newArray.push(arri[i]); // Si no está, se agrega al nuevo arreglo
